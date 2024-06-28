@@ -1,0 +1,16 @@
+{
+  "name": "vite-dts-config-dir-test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "build-config-dir": "vite build --config vite-config-dir.config.ts",
+    "check-file": "node ./check-files.mjs"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.2",
+    "vite-plugin-dts": "^3.9.1",
+    "vite": "^5.3.1"
+  }
+}
